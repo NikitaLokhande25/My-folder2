@@ -1,0 +1,6 @@
+def divide(a,b):
+    try: 
+        div = a/b
+    except ZeroDivisionError:
+        print("Division is :  ",div)
+divide(6,0)
